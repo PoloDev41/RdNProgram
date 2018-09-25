@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PredictionCourbe", "PredictionCourbe\PredictionCourbe.csproj", "{B9498CF9-536B-4BE0-8A93-EA8224B8E612}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RdN", "RdN\RdN.csproj", "{D050877B-0741-481F-92EB-578DD88BFBDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B9498CF9-536B-4BE0-8A93-EA8224B8E612}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9498CF9-536B-4BE0-8A93-EA8224B8E612}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9498CF9-536B-4BE0-8A93-EA8224B8E612}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D050877B-0741-481F-92EB-578DD88BFBDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D050877B-0741-481F-92EB-578DD88BFBDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D050877B-0741-481F-92EB-578DD88BFBDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D050877B-0741-481F-92EB-578DD88BFBDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
