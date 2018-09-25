@@ -64,7 +64,7 @@ namespace RdN
         /// <summary>
         /// true: la modification du RdN par reconstruction génétique est autorisé
         /// </summary>
-        private bool AutoriseReconstruction { get; set; }
+        public bool AutoriseReconstruction { get; set; }
 
         /// <summary>
         /// mutex pour la liste des indexes à supprimer
@@ -378,7 +378,7 @@ namespace RdN
                     }
 
                     CompareEtCopie(ref copieReseau);
-                    
+                    /*
                     if(copieReseau.ErreurQuadratiqueMoyenne < (this.ErreurMax * 1.1))
                     {
                         this.AutorisationReconstruction(false);
@@ -386,7 +386,7 @@ namespace RdN
                     else
                     {
                         this.AutorisationReconstruction(true);
-                    }
+                    }*/
 
                 } while (this.ContinuerApprentissage && this.ErreurMax < copieReseau.ErreurQuadratiqueMoyenne);
                 this.ContinuerApprentissage = false;
